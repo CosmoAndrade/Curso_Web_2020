@@ -1,0 +1,28 @@
+git init 
+
+git status
+
+# configuraro usuário 
+
+git config user.name 
+git config user.email
+
+git config --global user.name
+git config --global user.email
+
+
+git add 'nome do arquivo'
+git add . # Todos os arquivos
+
+git commit -m 'primeiro commit'
+
+# Adicionar ao repositório 
+
+git remote add origin 
+git push -u origin master 
+
+# Fazer alterações
+
+git add .
+git commit -m 'mensagem'
+git push origin master
