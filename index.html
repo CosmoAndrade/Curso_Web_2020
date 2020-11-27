@@ -1,63 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web 2020</title>
-
     <style>
-        h2{
+        * {
+            margin: 0px;
+            padding: 0px;
             font-family: 'Courier New', Courier, monospace;
-            font-size: 30px;
-            text-decoration: underline;
-            line-height: 10px;
-            color: blueviolet;
-            font-weight: 100px;
+            background-color: mediumpurple;
+            color:white;
+        }
+
+        div {
+            width: 750px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+
+        h1{
+            color: teal;
+        }
+        h2,h3{
+            color: saddlebrown;
+        }
+
+        p{
+            line-height: 25px;
+            margin-bottom: 25px;
+        }
+
+        #riscado{
+            text-decoration: line-through;
+            color: red;
+          
 
         }
-        div{
-            width: 300px;
-            height: 300px;
-            border: red;
+        .destaque{
             background-color: gold;
-            margin: 10px;
-            border-radius:25%;
+            color: purple;
+            font-weight: bold;
+            border-radius: 5px;
+        }
 
+        input{
+            color: sandybrown;
+            background-color: brown;
+            padding: 5px;
+        }
+
+        img {
+            width: 200px;
+           
         }
     </style>
+
 
 </head>
 
 <body>
 
-    <h1>Formatação de Textos em CSS</h1>
-
-    <h2>
-        Formatação de Textos em CSS
-    </h2>
-
-
-    <p>
-        font-family: --> Família de fontes <br>
-        font-size: --> Tamanho da fonte  <br>
-        text-decoration: --> Decoração de textos  <br>
-        line-height: --> Propriedade especifica a altura de uma linha.  <br>
-        color: --> Cor do texto  <br>
-        width: --> Largura  <br>
-        height: --> Altura  <br>
-        border: --> Bordas  <br>
-        background-color: --> Cor de Fundo  <br>
-        margin: --> É a margem do elemento, ou seja, o espaçamento externo do elemento.  <br>
-        font-weight: --> A propriedade define como os caracteres grossos ou finos no texto devem ser exibidos.  <br>
-        border-radius: --> Define o raio dos cantos do elemento.  <br>
-    </p>
-
     <div>
-        Minha div
+
+        <h1>Formatação de Textos em CSS</h1>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad ratione sed, nesciunt dolore assumenda quis <span id="riscado">   R$ 500,00 </span> 
+            tenetur fugiat, aut necessitatibus mollitia aperiam aliquid quos voluptate autem omnis laboriosam quia amet
+            vitae! <span class="destaque"> [Destaque] </span>
+        </p>
+
+        <h2>Título 2</h2>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur praesentium accusantium ipsam mollitia
+            eius harum nemo accusamus unde obcaecati. Dolore facilis culpa dolorem placeat incidunt deserunt, commodi ad
+            architecto voluptates! <span class="destaque"> [Destaque] </span>
+        </p>
+
+        <h3>Título 3</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat veniam distinctio repellat ducimus ea
+            soluta laudantium voluptates laboriosam ipsa, quaerat sint obcaecati animi similique. Ad laboriosam rem
+            totam neque? <span class="destaque"> [Destaque] </span>
+        </p> <br>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat veniam distinctio repellat ducimus ea
+            soluta laudantium voluptates laboriosam ipsa, quaerat sint obcaecati animi similique. Ad laboriosam rem
+            totam neque? <span class="destaque"> [Destaque] </span>
+        </p> <br>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet fugiat veniam distinctio repellat ducimus ea
+            soluta laudantium voluptates laboriosam ipsa, quaerat sint obcaecati animi similique. Ad laboriosam rem
+            totam neque? <span class="destaque"> [Destaque] </span>
+        </p> <br><br>
+
+        <img src="meios_de_pagamentos.png" alt="meios_de_pagamentos">
+        <br><br>
+
+        <input type="button" value="Enviar">
+
+
     </div>
-
-
-
 </body>
 
 </html>

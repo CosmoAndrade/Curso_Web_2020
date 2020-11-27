@@ -16,6 +16,9 @@ git add . # Todos os arquivos
 
 git commit -m 'primeiro commit'
 
+# Lista todos os commit
+git log
+
 # Adicionar ao repositório 
 
 git remote add origin 
